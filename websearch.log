@@ -1,0 +1,507 @@
+22 Jul 2018 15:08:20,289 INFO [main] org.springframework.context.support.ClassPathXmlApplicationContext.prepareRefresh: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@182decdb: startup date [Sun Jul 22 15:08:20 EDT 2018]; root of context hierarchy
+22 Jul 2018 15:08:20,373 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions: Loading XML bean definitions from class path resource [com/wework/assignment/config/app-context.xml]
+22 Jul 2018 15:08:21,384 INFO [main] com.wework.assignment.WebSearchManager.execute: The searchTerm is [welcome.*world]
+22 Jul 2018 15:08:21,389 INFO [main] com.wework.assignment.WebSearchManager.execute: Initial size of URLs: 500. Initializing 20 concurrent threads...
+22 Jul 2018 15:08:21,392 INFO [Thread-0] com.wework.assignment.concurrent.ConcurrentFileWriter.run: Creating new output file [Results.txt]
+22 Jul 2018 15:08:21,804 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: apple.com has No such word!
+22 Jul 2018 15:08:21,810 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: linkedin.com has No such word!
+22 Jul 2018 15:08:21,819 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: vimeo.com has No such word!
+22 Jul 2018 15:08:21,926 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: google.com has No such word!
+22 Jul 2018 15:08:21,933 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: myspace.com has No such word!
+22 Jul 2018 15:08:21,938 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: pinterest.com has the word!
+22 Jul 2018 15:08:21,943 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: wordpress.com has No such word!
+22 Jul 2018 15:08:21,971 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: wikipedia.org has No such word!
+22 Jul 2018 15:08:22,028 INFO [Thread-5] com.wework.assignment.WebSearchExecutor.websearch: wordpress.org has No such word!
+22 Jul 2018 15:08:22,092 INFO [Thread-5] com.wework.assignment.WebSearchExecutor.websearch: miibeian.gov.cn cannot be processed properly - miibeian.gov.cn
+22 Jul 2018 15:08:22,126 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: twitter.com has the word!
+22 Jul 2018 15:08:22,169 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: w3.org has No such word!
+22 Jul 2018 15:08:22,176 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: facebook.com has No such word!
+22 Jul 2018 15:08:22,240 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: adobe.com has No such word!
+22 Jul 2018 15:08:22,258 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: blogspot.com has No such word!
+22 Jul 2018 15:08:22,246 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: flickr.com has No such word!
+22 Jul 2018 15:08:22,288 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: tumblr.com has No such word!
+22 Jul 2018 15:08:22,319 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: statcounter.com has No such word!
+22 Jul 2018 15:08:22,408 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: stumbleupon.com has No such word!
+22 Jul 2018 15:08:22,434 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: yahoo.com has the word!
+22 Jul 2018 15:08:22,544 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: youtube.com has No such word!
+22 Jul 2018 15:08:22,545 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: microsoft.com has No such word!
+22 Jul 2018 15:08:22,547 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: baidu.com has No such word!
+22 Jul 2018 15:08:22,559 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: digg.com has No such word!
+22 Jul 2018 15:08:22,658 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: feedburner.com has No such word!
+22 Jul 2018 15:08:22,576 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: youtu.be has No such word!
+22 Jul 2018 15:08:22,721 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: amazon.com has No such word!
+22 Jul 2018 15:08:22,698 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: nytimes.com has No such word!
+22 Jul 2018 15:08:22,678 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: addthis.com has No such word!
+22 Jul 2018 15:08:22,770 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: icio.us has No such word!
+22 Jul 2018 15:08:22,891 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: msn.com has No such word!
+22 Jul 2018 15:08:22,899 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: gov.uk has No such word!
+22 Jul 2018 15:08:22,928 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: webs.com cannot be processed properly - HTTP error fetching URL
+22 Jul 2018 15:08:22,969 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: blogger.com has No such word!
+22 Jul 2018 15:08:22,975 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: goo.gl has No such word!
+22 Jul 2018 15:08:22,977 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: t.co has No such word!
+22 Jul 2018 15:08:23,023 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: cnn.com has No such word!
+22 Jul 2018 15:08:23,053 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: jimdo.com has No such word!
+22 Jul 2018 15:08:23,130 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: weebly.com has No such word!
+22 Jul 2018 15:08:23,176 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: google.de has No such word!
+22 Jul 2018 15:08:23,176 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: instagram.com has No such word!
+22 Jul 2018 15:08:23,230 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: tinyurl.com has No such word!
+22 Jul 2018 15:08:23,317 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: imdb.com has No such word!
+22 Jul 2018 15:08:23,368 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: google.co.jp has No such word!
+22 Jul 2018 15:08:23,403 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: bbc.co.uk has No such word!
+22 Jul 2018 15:08:23,458 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: qq.com has No such word!
+22 Jul 2018 15:08:23,463 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: typepad.com has No such word!
+22 Jul 2018 15:08:23,482 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: free.fr has No such word!
+22 Jul 2018 15:08:23,511 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: go.com has No such word!
+22 Jul 2018 15:08:23,553 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: reddit.com has No such word!
+22 Jul 2018 15:08:23,605 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: technorati.com has No such word!
+22 Jul 2018 15:08:23,629 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: hugedomains.com has No such word!
+22 Jul 2018 15:08:23,634 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: about.com has No such word!
+22 Jul 2018 15:08:23,712 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: creativecommons.org has No such word!
+22 Jul 2018 15:08:23,764 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: sourceforge.net has No such word!
+22 Jul 2018 15:08:23,774 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: fc2.com has No such word!
+22 Jul 2018 15:08:23,790 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: nih.gov has No such word!
+22 Jul 2018 15:08:23,830 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: networkadvertising.org has No such word!
+22 Jul 2018 15:08:23,838 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: theguardian.com has No such word!
+22 Jul 2018 15:08:23,866 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: vk.com has No such word!
+22 Jul 2018 15:08:23,897 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: google.co.uk has No such word!
+22 Jul 2018 15:08:23,897 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: yandex.ru has No such word!
+22 Jul 2018 15:08:23,952 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: joomla.org has No such word!
+22 Jul 2018 15:08:24,029 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: bing.com has No such word!
+22 Jul 2018 15:08:24,081 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: huffingtonpost.com has No such word!
+22 Jul 2018 15:08:24,111 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: europa.eu has No such word!
+22 Jul 2018 15:08:24,162 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: guardian.co.uk has No such word!
+22 Jul 2018 15:08:24,190 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: mail.ru has No such word!
+22 Jul 2018 15:08:24,198 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: livejournal.com has No such word!
+22 Jul 2018 15:08:24,243 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: gnu.org has No such word!
+22 Jul 2018 15:08:24,262 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: aol.com has No such word!
+22 Jul 2018 15:08:24,316 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: ameblo.jp has No such word!
+22 Jul 2018 15:08:24,325 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: geocities.com has No such word!
+22 Jul 2018 15:08:24,340 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: issuu.com has No such word!
+22 Jul 2018 15:08:24,516 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: mozilla.org has No such word!
+22 Jul 2018 15:08:24,617 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: homestead.com has No such word!
+22 Jul 2018 15:08:24,628 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: wsj.com has the word!
+22 Jul 2018 15:08:24,669 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: clickbank.net cannot be processed properly - clickbank.net
+22 Jul 2018 15:08:24,698 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: photobucket.com has No such word!
+22 Jul 2018 15:08:24,750 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: reuters.com has No such word!
+22 Jul 2018 15:08:24,761 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: washingtonpost.com has No such word!
+22 Jul 2018 15:08:24,769 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: godaddy.com has No such word!
+22 Jul 2018 15:08:24,828 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: forbes.com has No such word!
+22 Jul 2018 15:08:24,892 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: mapquest.com has No such word!
+22 Jul 2018 15:08:24,906 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: wix.com has No such word!
+22 Jul 2018 15:08:25,008 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: ebay.com has No such word!
+22 Jul 2018 15:08:25,059 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: usatoday.com has the word!
+22 Jul 2018 15:08:25,061 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: etsy.com has No such word!
+22 Jul 2018 15:08:25,131 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: posterous.com has No such word!
+22 Jul 2018 15:08:25,172 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: yahoo.co.jp has No such word!
+22 Jul 2018 15:08:25,241 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: rambler.ru has No such word!
+22 Jul 2018 15:08:25,297 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: cnet.com has No such word!
+22 Jul 2018 15:08:25,349 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: soundcloud.com has No such word!
+22 Jul 2018 15:08:25,419 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: google.fr has No such word!
+22 Jul 2018 15:08:25,439 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: taobao.com has No such word!
+22 Jul 2018 15:08:25,514 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: 51.la has No such word!
+22 Jul 2018 15:08:25,569 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: constantcontact.com has No such word!
+22 Jul 2018 15:08:25,616 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: miitbeian.gov.cn cannot be processed properly - miitbeian.gov.cn
+22 Jul 2018 15:08:25,638 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: latimes.com has No such word!
+22 Jul 2018 15:08:25,650 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: telegraph.co.uk has No such word!
+22 Jul 2018 15:08:25,681 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: php.net has No such word!
+22 Jul 2018 15:08:25,706 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: dailymotion.com has No such word!
+22 Jul 2018 15:08:25,946 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: phpbb.com has No such word!
+22 Jul 2018 15:08:25,976 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: archive.org has the word!
+22 Jul 2018 15:08:25,996 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: phoca.cz has No such word!
+22 Jul 2018 15:08:26,095 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: scribd.com has No such word!
+22 Jul 2018 15:08:26,162 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: amazon.co.uk has No such word!
+22 Jul 2018 15:08:26,360 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: sina.com.cn has No such word!
+22 Jul 2018 15:08:26,364 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: opera.com has No such word!
+22 Jul 2018 15:08:26,411 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: wikimedia.org has No such word!
+22 Jul 2018 15:08:26,418 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: parallels.com has No such word!
+22 Jul 2018 15:08:26,433 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: yelp.com has No such word!
+22 Jul 2018 15:08:26,435 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: ning.com has No such word!
+22 Jul 2018 15:08:26,436 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: dailymail.co.uk has No such word!
+22 Jul 2018 15:08:26,444 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: bbb.org has No such word!
+22 Jul 2018 15:08:26,550 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: time.com has No such word!
+22 Jul 2018 15:08:26,551 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: mit.edu has No such word!
+22 Jul 2018 15:08:26,674 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: addtoany.com has No such word!
+22 Jul 2018 15:08:26,740 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: live.com has No such word!
+22 Jul 2018 15:08:26,789 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: google.it has No such word!
+22 Jul 2018 15:08:26,852 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: slideshare.net has No such word!
+22 Jul 2018 15:08:26,859 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: amazon.de has No such word!
+22 Jul 2018 15:08:26,901 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: harvard.edu has No such word!
+22 Jul 2018 15:08:26,913 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: cdc.gov has No such word!
+22 Jul 2018 15:08:26,918 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: squidoo.com has No such word!
+22 Jul 2018 15:08:27,026 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: histats.com has No such word!
+22 Jul 2018 15:08:27,050 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: nasa.gov has No such word!
+22 Jul 2018 15:08:27,106 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: alibaba.com has No such word!
+22 Jul 2018 15:08:27,142 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: npr.org has No such word!
+22 Jul 2018 15:08:27,198 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: gravatar.com has No such word!
+22 Jul 2018 15:08:27,249 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: wired.com has No such word!
+22 Jul 2018 15:08:27,265 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: weibo.com has No such word!
+22 Jul 2018 15:08:27,343 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: stanford.edu has No such word!
+22 Jul 2018 15:08:27,395 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: blog.com cannot be processed properly - HTTP error fetching URL
+22 Jul 2018 15:08:27,434 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: bloomberg.com has No such word!
+22 Jul 2018 15:08:27,454 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: altervista.org has No such word!
+22 Jul 2018 15:08:27,464 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: amazonaws.com has No such word!
+22 Jul 2018 15:08:27,509 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: nbcnews.com has the word!
+22 Jul 2018 15:08:27,521 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: imageshack.us has No such word!
+22 Jul 2018 15:08:27,577 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: e-recht24.de has No such word!
+22 Jul 2018 15:08:27,673 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: eventbrite.com has No such word!
+22 Jul 2018 15:08:27,835 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: google.es has No such word!
+22 Jul 2018 15:08:27,910 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: kickstarter.com has No such word!
+22 Jul 2018 15:08:28,116 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: narod.ru has No such word!
+22 Jul 2018 15:08:28,132 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: blinklist.com has No such word!
+22 Jul 2018 15:08:28,175 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: google.ca has No such word!
+22 Jul 2018 15:08:28,206 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: sakura.ne.jp has No such word!
+22 Jul 2018 15:08:28,377 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: weather.com has the word!
+22 Jul 2018 15:08:28,400 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: pbs.org has No such word!
+22 Jul 2018 15:08:28,561 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: over-blog.com has No such word!
+22 Jul 2018 15:08:28,615 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: ca.gov has No such word!
+22 Jul 2018 15:08:28,655 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: prweb.com has No such word!
+22 Jul 2018 15:08:28,670 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: amazon.co.jp has No such word!
+22 Jul 2018 15:08:28,715 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: deviantart.com has No such word!
+22 Jul 2018 15:08:28,832 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: hatena.ne.jp has No such word!
+22 Jul 2018 15:08:28,910 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: ibm.com has No such word!
+22 Jul 2018 15:08:28,913 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: cpanel.net has No such word!
+22 Jul 2018 15:08:28,923 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: noaa.gov has No such word!
+22 Jul 2018 15:08:28,940 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: barnesandnoble.com has No such word!
+22 Jul 2018 15:08:29,042 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: eepurl.com has No such word!
+22 Jul 2018 15:08:29,148 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: foxnews.com has No such word!
+22 Jul 2018 15:08:29,197 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: businessweek.com has No such word!
+22 Jul 2018 15:08:29,292 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: a8.net has No such word!
+22 Jul 2018 15:08:29,580 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: cbsnews.com has No such word!
+22 Jul 2018 15:08:29,598 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: geocities.jp cannot be processed properly - geocities.jp
+22 Jul 2018 15:08:29,654 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: ocn.ne.jp has No such word!
+22 Jul 2018 15:08:29,728 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: newsvine.com has No such word!
+22 Jul 2018 15:08:29,826 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: loc.gov has No such word!
+22 Jul 2018 15:08:29,933 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: yolasite.com has No such word!
+22 Jul 2018 15:08:29,951 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: nifty.com has No such word!
+22 Jul 2018 15:08:29,980 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: sohu.com has No such word!
+22 Jul 2018 15:08:30,083 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: apache.org has No such word!
+22 Jul 2018 15:08:30,095 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: mashable.com has No such word!
+22 Jul 2018 15:08:30,111 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: berkeley.edu has No such word!
+22 Jul 2018 15:08:30,131 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: bandcamp.com has the word!
+22 Jul 2018 15:08:30,318 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: whitehouse.gov has No such word!
+22 Jul 2018 15:08:30,328 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: nationalgeographic.com has No such word!
+22 Jul 2018 15:08:30,380 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: ted.com has No such word!
+22 Jul 2018 15:08:30,416 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: sfgate.com has No such word!
+22 Jul 2018 15:08:30,432 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: usda.gov has No such word!
+22 Jul 2018 15:08:30,521 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: biglobe.ne.jp has No such word!
+22 Jul 2018 15:08:30,639 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: bluehost.com has No such word!
+22 Jul 2018 15:08:30,704 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: cornell.edu has No such word!
+22 Jul 2018 15:08:30,775 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: oracle.com has No such word!
+22 Jul 2018 15:08:30,786 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: epa.gov has No such word!
+22 Jul 2018 15:08:30,824 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: tripadvisor.com has No such word!
+22 Jul 2018 15:08:30,894 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: nps.gov has No such word!
+22 Jul 2018 15:08:30,969 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: disqus.com has No such word!
+22 Jul 2018 15:08:31,266 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: hp.com has No such word!
+22 Jul 2018 15:08:31,296 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: alexa.com has No such word!
+22 Jul 2018 15:08:31,434 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: house.gov has No such word!
+22 Jul 2018 15:08:31,473 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: xrea.com has No such word!
+22 Jul 2018 15:08:31,485 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: boston.com has No such word!
+22 Jul 2018 15:08:31,486 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: techcrunch.com has the word!
+22 Jul 2018 15:08:31,727 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: un.org has the word!
+22 Jul 2018 15:08:31,772 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: vkontakte.ru has No such word!
+22 Jul 2018 15:08:31,800 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: squarespace.com has No such word!
+22 Jul 2018 15:08:31,827 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: freewebs.com has No such word!
+22 Jul 2018 15:08:31,856 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: sphinn.com has No such word!
+22 Jul 2018 15:08:31,888 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: mysql.com has No such word!
+22 Jul 2018 15:08:31,940 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: goo.ne.jp has No such word!
+22 Jul 2018 15:08:32,097 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: seesaa.net has No such word!
+22 Jul 2018 15:08:32,130 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: ezinearticles.com has No such word!
+22 Jul 2018 15:08:32,207 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: google.nl has No such word!
+22 Jul 2018 15:08:32,227 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: independent.co.uk has No such word!
+22 Jul 2018 15:08:32,240 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: imgur.com has No such word!
+22 Jul 2018 15:08:32,259 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: mediafire.com has No such word!
+22 Jul 2018 15:08:32,305 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: irs.gov has No such word!
+22 Jul 2018 15:08:32,540 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: bizjournals.com has No such word!
+22 Jul 2018 15:08:32,616 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: wunderground.com has No such word!
+22 Jul 2018 15:08:32,653 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: ucoz.ru has No such word!
+22 Jul 2018 15:08:32,658 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: who.int has No such word!
+22 Jul 2018 15:08:32,763 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: cloudflare.com has No such word!
+22 Jul 2018 15:08:32,819 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: cbslocal.com has No such word!
+22 Jul 2018 15:08:32,908 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: soup.io has No such word!
+22 Jul 2018 15:08:32,908 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: reverbnation.com has No such word!
+22 Jul 2018 15:08:33,064 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: senate.gov has No such word!
+22 Jul 2018 15:08:33,067 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: opensource.org has No such word!
+22 Jul 2018 15:08:33,092 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: icq.com has No such word!
+22 Jul 2018 15:08:33,233 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: ycombinator.com has No such word!
+22 Jul 2018 15:08:33,234 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: businessinsider.com has No such word!
+22 Jul 2018 15:08:33,371 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: xinhuanet.com has No such word!
+22 Jul 2018 15:08:33,750 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: drupal.org has No such word!
+22 Jul 2018 15:08:33,764 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: spiegel.de has No such word!
+22 Jul 2018 15:08:33,765 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: people.com.cn has No such word!
+22 Jul 2018 15:08:33,937 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: mozilla.com has No such word!
+22 Jul 2018 15:08:33,953 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: webnode.com has No such word!
+22 Jul 2018 15:08:33,980 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: wikia.com has No such word!
+22 Jul 2018 15:08:34,013 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: about.me has No such word!
+22 Jul 2018 15:08:34,047 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: fda.gov cannot be processed properly - fda.gov
+22 Jul 2018 15:08:34,091 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: last.fm has No such word!
+22 Jul 2018 15:08:34,194 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: gmpg.org has No such word!
+22 Jul 2018 15:08:34,241 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: ustream.tv has No such word!
+22 Jul 2018 15:08:34,358 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: github.com has No such word!
+22 Jul 2018 15:08:34,414 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: nature.com has No such word!
+22 Jul 2018 15:08:34,424 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: umich.edu has No such word!
+22 Jul 2018 15:08:34,479 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: cbc.ca has No such word!
+22 Jul 2018 15:08:34,560 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: webmd.com has No such word!
+22 Jul 2018 15:08:34,770 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: google.com.br has No such word!
+22 Jul 2018 15:08:34,881 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: mac.com has No such word!
+22 Jul 2018 15:08:34,908 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: skype.com has No such word!
+22 Jul 2018 15:08:34,937 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: topsy.com cannot be processed properly - topsy.com
+22 Jul 2018 15:08:35,041 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: oaic.gov.au has No such word!
+22 Jul 2018 15:08:35,109 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: jugem.jp has No such word!
+22 Jul 2018 15:08:35,191 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: google.cn has No such word!
+22 Jul 2018 15:08:35,240 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: discovery.com has No such word!
+22 Jul 2018 15:08:35,250 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: ifeng.com has No such word!
+22 Jul 2018 15:08:35,370 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: privacy.gov.au has No such word!
+22 Jul 2018 15:08:35,625 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: wiley.com has No such word!
+22 Jul 2018 15:08:35,692 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: google.pl has No such word!
+22 Jul 2018 15:08:35,914 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: youku.com has No such word!
+22 Jul 2018 15:08:35,938 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: redcross.org has No such word!
+22 Jul 2018 15:08:36,028 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: prnewswire.com has No such word!
+22 Jul 2018 15:08:36,066 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: dropbox.com has No such word!
+22 Jul 2018 15:08:36,077 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: moonfruit.com has No such word!
+22 Jul 2018 15:08:36,163 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: surveymonkey.com has No such word!
+22 Jul 2018 15:08:36,189 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: ft.com has No such word!
+22 Jul 2018 15:08:36,224 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: auda.org.au has No such word!
+22 Jul 2018 15:08:36,281 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: behance.net has No such word!
+22 Jul 2018 15:08:36,291 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: paypal.com has No such word!
+22 Jul 2018 15:08:36,457 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: shinystat.com has No such word!
+22 Jul 2018 15:08:36,481 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: marketwatch.com has No such word!
+22 Jul 2018 15:08:36,518 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: state.gov has No such word!
+22 Jul 2018 15:08:36,538 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: goodreads.com has No such word!
+22 Jul 2018 15:08:36,628 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: exblog.jp has No such word!
+22 Jul 2018 15:08:36,632 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: networksolutions.com cannot be processed properly - sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+22 Jul 2018 15:08:36,805 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: ed.gov has No such word!
+22 Jul 2018 15:08:36,847 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: nydailynews.com has No such word!
+22 Jul 2018 15:08:36,887 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: quantcast.com has No such word!
+22 Jul 2018 15:08:36,932 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: ftc.gov has No such word!
+22 Jul 2018 15:08:37,071 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: census.gov has No such word!
+22 Jul 2018 15:08:37,190 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: rakuten.co.jp has No such word!
+22 Jul 2018 15:08:37,266 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: uol.com.br has No such word!
+22 Jul 2018 15:08:37,485 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: chicagotribune.com has No such word!
+22 Jul 2018 15:08:37,492 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: zdnet.com has No such word!
+22 Jul 2018 15:08:37,501 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: theatlantic.com has No such word!
+22 Jul 2018 15:08:37,526 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: ow.ly has No such word!
+22 Jul 2018 15:08:37,688 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: cafepress.com has the word!
+22 Jul 2018 15:08:37,710 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: netvibes.com has No such word!
+22 Jul 2018 15:08:37,730 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: list-manage.com has No such word!
+22 Jul 2018 15:08:37,753 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: skyrock.com has No such word!
+22 Jul 2018 15:08:37,814 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: google.com.au has No such word!
+22 Jul 2018 15:08:37,868 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: meetup.com has the word!
+22 Jul 2018 15:08:37,974 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: patch.com has No such word!
+22 Jul 2018 15:08:37,996 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: netscape.com has No such word!
+22 Jul 2018 15:08:37,999 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: economist.com has No such word!
+22 Jul 2018 15:08:38,089 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: friendfeed.com has No such word!
+22 Jul 2018 15:08:38,096 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: liveinternet.ru has No such word!
+22 Jul 2018 15:08:38,244 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: ehow.com has No such word!
+22 Jul 2018 15:08:38,252 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: pagesperso-orange.fr has No such word!
+22 Jul 2018 15:08:38,358 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: upenn.edu has No such word!
+22 Jul 2018 15:08:38,484 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: columbia.edu has No such word!
+22 Jul 2018 15:08:38,633 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: com.com has No such word!
+22 Jul 2018 15:08:38,661 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: cdbaby.com has No such word!
+22 Jul 2018 15:08:38,690 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: diigo.com has No such word!
+22 Jul 2018 15:08:38,723 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: washington.edu has No such word!
+22 Jul 2018 15:08:38,749 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: elegantthemes.com has No such word!
+22 Jul 2018 15:08:38,785 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: slashdot.org has No such word!
+22 Jul 2018 15:08:38,803 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: utexas.edu has No such word!
+22 Jul 2018 15:08:38,832 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: nhs.uk has No such word!
+22 Jul 2018 15:08:38,881 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: yale.edu has No such word!
+22 Jul 2018 15:08:38,945 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: engadget.com has No such word!
+22 Jul 2018 15:08:38,952 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: abc.net.au has No such word!
+22 Jul 2018 15:08:38,960 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: marriott.com has No such word!
+22 Jul 2018 15:08:38,988 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: bigcartel.com has No such word!
+22 Jul 2018 15:08:39,025 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: hubpages.com has No such word!
+22 Jul 2018 15:08:39,059 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: usgs.gov has No such word!
+22 Jul 2018 15:08:39,131 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: jigsy.com has No such word!
+22 Jul 2018 15:08:39,175 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: slate.com has No such word!
+22 Jul 2018 15:08:39,256 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: 1688.com has No such word!
+22 Jul 2018 15:08:39,260 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: purevolume.com has No such word!
+22 Jul 2018 15:08:39,313 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: umn.edu has No such word!
+22 Jul 2018 15:08:39,327 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: ucla.edu has No such word!
+22 Jul 2018 15:08:39,541 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: usnews.com cannot be processed properly - HTTP error fetching URL
+22 Jul 2018 15:08:39,602 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: cargocollective.com has the word!
+22 Jul 2018 15:08:39,652 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: howstuffworks.com has No such word!
+22 Jul 2018 15:08:39,664 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: flavors.me has No such word!
+22 Jul 2018 15:08:40,063 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: wikispaces.com has No such word!
+22 Jul 2018 15:08:40,336 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: jiathis.com has No such word!
+22 Jul 2018 15:08:40,384 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: tripod.com has No such word!
+22 Jul 2018 15:08:40,408 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: usa.gov has No such word!
+22 Jul 2018 15:08:40,410 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: xing.com has No such word!
+22 Jul 2018 15:08:40,614 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: hexun.com has No such word!
+22 Jul 2018 15:08:40,649 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: lycos.com has No such word!
+22 Jul 2018 15:08:40,650 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: state.tx.us cannot be processed properly - state.tx.us
+22 Jul 2018 15:08:40,684 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: example.com has No such word!
+22 Jul 2018 15:08:40,732 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: desdev.cn has No such word!
+22 Jul 2018 15:08:40,735 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: shareasale.com has No such word!
+22 Jul 2018 15:08:41,000 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: wisc.edu has No such word!
+22 Jul 2018 15:08:41,133 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: yellowbook.com has No such word!
+22 Jul 2018 15:08:41,199 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: biblegateway.com has No such word!
+22 Jul 2018 15:08:41,269 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: g.co has No such word!
+22 Jul 2018 15:08:41,286 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: is.gd has No such word!
+22 Jul 2018 15:08:41,291 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: edublogs.org has No such word!
+22 Jul 2018 15:08:41,433 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: thetimes.co.uk has No such word!
+22 Jul 2018 15:08:41,469 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: dion.ne.jp cannot be processed properly - dion.ne.jp
+22 Jul 2018 15:08:41,558 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: plala.or.jp has No such word!
+22 Jul 2018 15:08:41,568 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: businesswire.com has No such word!
+22 Jul 2018 15:08:41,600 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: infoseek.co.jp has No such word!
+22 Jul 2018 15:08:41,628 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: so-net.ne.jp has No such word!
+22 Jul 2018 15:08:41,658 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: theglobeandmail.com has No such word!
+22 Jul 2018 15:08:41,765 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: ucoz.com has No such word!
+22 Jul 2018 15:08:41,818 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: samsung.com has No such word!
+22 Jul 2018 15:08:41,822 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: gizmodo.com has No such word!
+22 Jul 2018 15:08:41,862 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: storify.com has No such word!
+22 Jul 2018 15:08:41,903 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: salon.com has No such word!
+22 Jul 2018 15:08:42,067 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: unicef.org has No such word!
+22 Jul 2018 15:08:42,080 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: reference.com has No such word!
+22 Jul 2018 15:08:42,135 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: sun.com has No such word!
+22 Jul 2018 15:08:42,138 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: angelfire.com has No such word!
+22 Jul 2018 15:08:42,169 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: smh.com.au has No such word!
+22 Jul 2018 15:08:42,205 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: cocolog-nifty.com cannot be processed properly - cocolog-nifty.com
+22 Jul 2018 15:08:42,206 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: hc360.com has No such word!
+22 Jul 2018 15:08:42,270 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: devhub.com has No such word!
+22 Jul 2018 15:08:42,371 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: artisteer.com has No such word!
+22 Jul 2018 15:08:42,529 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: answers.com has No such word!
+22 Jul 2018 15:08:42,678 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: intel.com has No such word!
+22 Jul 2018 15:08:42,736 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: trellian.com has No such word!
+22 Jul 2018 15:08:42,771 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: dagondesign.com has No such word!
+22 Jul 2018 15:08:42,954 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: sciencedaily.com has No such word!
+22 Jul 2018 15:08:43,042 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: ask.com has No such word!
+22 Jul 2018 15:08:43,089 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: unesco.org has No such word!
+22 Jul 2018 15:08:43,096 INFO [Thread-5] com.wework.assignment.WebSearchExecutor.websearch: delicious.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:43,101 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: psu.edu has No such word!
+22 Jul 2018 15:08:43,184 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: ebay.co.uk has No such word!
+22 Jul 2018 15:08:43,263 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: istockphoto.com has No such word!
+22 Jul 2018 15:08:43,296 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: booking.com has the word!
+22 Jul 2018 15:08:43,308 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: i2i.jp has No such word!
+22 Jul 2018 15:08:43,311 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: macromedia.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:43,374 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: 1und1.de has No such word!
+22 Jul 2018 15:08:43,519 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: t-online.de has No such word!
+22 Jul 2018 15:08:43,564 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: twitpic.com has No such word!
+22 Jul 2018 15:08:43,572 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: smugmug.com has No such word!
+22 Jul 2018 15:08:43,605 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: wufoo.com has No such word!
+22 Jul 2018 15:08:43,643 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: paginegialle.it has No such word!
+22 Jul 2018 15:08:43,653 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: timesonline.co.uk has No such word!
+22 Jul 2018 15:08:43,707 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: springer.com has No such word!
+22 Jul 2018 15:08:43,713 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: cmu.edu has No such word!
+22 Jul 2018 15:08:43,860 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: ovh.net has No such word!
+22 Jul 2018 15:08:43,999 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: blogs.com has No such word!
+22 Jul 2018 15:08:44,005 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: newyorker.com has No such word!
+22 Jul 2018 15:08:44,014 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: google.ru has No such word!
+22 Jul 2018 15:08:44,231 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: canalblog.com has No such word!
+22 Jul 2018 15:08:44,292 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: hhs.gov has No such word!
+22 Jul 2018 15:08:44,303 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: hibu.com has No such word!
+22 Jul 2018 15:08:44,431 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: dmoz.org cannot be processed properly - HTTP error fetching URL
+22 Jul 2018 15:08:44,582 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: si.edu has No such word!
+22 Jul 2018 15:08:44,589 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: sciencedirect.com has No such word!
+22 Jul 2018 15:08:44,656 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: deliciousdays.com has No such word!
+22 Jul 2018 15:08:44,686 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: naver.com has No such word!
+22 Jul 2018 15:08:44,761 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: home.pl has No such word!
+22 Jul 2018 15:08:44,780 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: google.com.hk has No such word!
+22 Jul 2018 15:08:44,861 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: odnoklassniki.ru has No such word!
+22 Jul 2018 15:08:44,973 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: zimbio.com has the word!
+22 Jul 2018 15:08:45,040 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: cnbc.com has No such word!
+22 Jul 2018 15:08:45,092 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: uiuc.edu has No such word!
+22 Jul 2018 15:08:45,179 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: dot.gov has No such word!
+22 Jul 2018 15:08:45,244 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: chronoengine.com has No such word!
+22 Jul 2018 15:08:45,251 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: prlog.org has No such word!
+22 Jul 2018 15:08:45,261 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: craigslist.org has No such word!
+22 Jul 2018 15:08:45,473 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: java.com has No such word!
+22 Jul 2018 15:08:45,480 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: mtv.com has No such word!
+22 Jul 2018 15:08:45,486 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: symantec.com has No such word!
+22 Jul 2018 15:08:45,500 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: hud.gov has No such word!
+22 Jul 2018 15:08:45,521 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: japanpost.jp cannot be processed properly - japanpost.jp
+22 Jul 2018 15:08:45,575 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: domainmarket.com has No such word!
+22 Jul 2018 15:08:45,604 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: jalbum.net has No such word!
+22 Jul 2018 15:08:45,636 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: admin.ch cannot be processed properly - admin.ch
+22 Jul 2018 15:08:45,640 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: github.io has No such word!
+22 Jul 2018 15:08:45,785 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: virginia.edu has No such word!
+22 Jul 2018 15:08:45,835 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: cyberchimps.com has No such word!
+22 Jul 2018 15:08:45,840 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: cisco.com has No such word!
+22 Jul 2018 15:08:45,881 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: mayoclinic.com has No such word!
+22 Jul 2018 15:08:45,886 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: webeden.co.uk has No such word!
+22 Jul 2018 15:08:45,890 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: printfriendly.com has No such word!
+22 Jul 2018 15:08:45,915 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: 360.cn has No such word!
+22 Jul 2018 15:08:45,959 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: globo.com has No such word!
+22 Jul 2018 15:08:46,084 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: vistaprint.com has No such word!
+22 Jul 2018 15:08:46,089 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: mlb.com has the word!
+22 Jul 2018 15:08:46,119 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: simplemachines.org has No such word!
+22 Jul 2018 15:08:46,135 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: 4shared.com has No such word!
+22 Jul 2018 15:08:46,184 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: princeton.edu has No such word!
+22 Jul 2018 15:08:46,325 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: nyu.edu has No such word!
+22 Jul 2018 15:08:46,337 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: indiatimes.com has No such word!
+22 Jul 2018 15:08:46,343 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: wp.com has No such word!
+22 Jul 2018 15:08:46,416 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: dell.com has No such word!
+22 Jul 2018 15:08:46,469 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: chron.com has No such word!
+22 Jul 2018 15:08:46,548 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: comcast.net has No such word!
+22 Jul 2018 15:08:46,574 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: merriam-webster.com has No such word!
+22 Jul 2018 15:08:46,642 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: nba.com has No such word!
+22 Jul 2018 15:08:46,808 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: buzzfeed.com has No such word!
+22 Jul 2018 15:08:46,839 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: army.mil cannot be processed properly - army.mil
+22 Jul 2018 15:08:46,863 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: studiopress.com has No such word!
+22 Jul 2018 15:08:46,992 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: omniture.com has No such word!
+22 Jul 2018 15:08:47,070 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: ox.ac.uk has No such word!
+22 Jul 2018 15:08:47,119 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: lulu.com has No such word!
+22 Jul 2018 15:08:47,260 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: rediff.com has No such word!
+22 Jul 2018 15:08:47,298 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: fotki.com has the word!
+22 Jul 2018 15:08:47,382 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: csmonitor.com has No such word!
+22 Jul 2018 15:08:47,391 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: tuttocitta.it has No such word!
+22 Jul 2018 15:08:47,508 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: tiny.cc has No such word!
+22 Jul 2018 15:08:47,527 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: tamu.edu has No such word!
+22 Jul 2018 15:08:47,540 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: mapy.cz has No such word!
+22 Jul 2018 15:08:47,546 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: indiegogo.com has No such word!
+22 Jul 2018 15:08:47,663 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: yellowpages.com has No such word!
+22 Jul 2018 15:08:47,711 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: elpais.com has No such word!
+22 Jul 2018 15:08:47,781 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: nymag.com has No such word!
+22 Jul 2018 15:08:47,796 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: bravesites.com has No such word!
+22 Jul 2018 15:08:47,823 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: toplist.cz has No such word!
+22 Jul 2018 15:08:47,865 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: oakley.com has No such word!
+22 Jul 2018 15:08:47,870 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: multiply.com has No such word!
+22 Jul 2018 15:08:47,981 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: netlog.com has No such word!
+22 Jul 2018 15:08:48,038 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: hostgator.com has No such word!
+22 Jul 2018 15:08:48,103 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: fema.gov has No such word!
+22 Jul 2018 15:08:48,138 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: fastcompany.com has the word!
+22 Jul 2018 15:08:48,359 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: shop-pro.jp has No such word!
+22 Jul 2018 15:08:48,372 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: earthlink.net has No such word!
+22 Jul 2018 15:08:48,413 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: blogtalkradio.com has No such word!
+22 Jul 2018 15:08:48,514 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: msu.edu has No such word!
+22 Jul 2018 15:08:48,515 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: vinaora.com has No such word!
+22 Jul 2018 15:08:48,615 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: aboutads.info has No such word!
+22 Jul 2018 15:08:48,842 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: ucsd.edu has No such word!
+22 Jul 2018 15:08:48,854 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: va.gov has No such word!
+22 Jul 2018 15:08:48,977 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: seattletimes.com has No such word!
+22 Jul 2018 15:08:49,052 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: unblog.fr has No such word!
+22 Jul 2018 15:08:49,100 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: tinypic.com has No such word!
+22 Jul 2018 15:08:49,182 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: sbwire.com has No such word!
+22 Jul 2018 15:08:49,236 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: tmall.com has No such word!
+22 Jul 2018 15:08:49,248 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: dyndns.org has No such word!
+22 Jul 2018 15:08:49,261 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: 123-reg.co.uk has No such word!
+22 Jul 2018 15:08:49,341 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: pen.io has No such word!
+22 Jul 2018 15:08:49,545 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: themeforest.net has No such word!
+22 Jul 2018 15:08:49,546 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: woothemes.com has No such word!
+22 Jul 2018 15:08:49,606 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: arizona.edu has No such word!
+22 Jul 2018 15:08:49,709 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: scientificamerican.com has No such word!
+22 Jul 2018 15:08:49,717 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: comsenz.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:49,722 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: walmart.com has No such word!
+22 Jul 2018 15:08:49,902 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: illinois.edu has No such word!
+22 Jul 2018 15:08:49,917 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: arstechnica.com has No such word!
+22 Jul 2018 15:08:49,926 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: discuz.net cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:49,939 INFO [Thread-15] com.wework.assignment.WebSearchExecutor.websearch: shutterfly.com has No such word!
+22 Jul 2018 15:08:49,959 INFO [Thread-14] com.wework.assignment.WebSearchExecutor.websearch: cam.ac.uk has No such word!
+22 Jul 2018 15:08:50,025 INFO [Thread-8] com.wework.assignment.WebSearchExecutor.websearch: unc.edu has No such word!
+22 Jul 2018 15:08:50,100 INFO [Thread-19] com.wework.assignment.WebSearchExecutor.websearch: spotify.com has No such word!
+22 Jul 2018 15:08:50,227 INFO [Thread-2] com.wework.assignment.WebSearchExecutor.websearch: pcworld.com has No such word!
+22 Jul 2018 15:08:50,309 INFO [Thread-20] com.wework.assignment.WebSearchExecutor.websearch: ihg.com cannot be processed properly - HTTP error fetching URL
+22 Jul 2018 15:08:50,553 INFO [Thread-11] com.wework.assignment.WebSearchExecutor.websearch: sogou.com has No such word!
+22 Jul 2018 15:08:50,599 INFO [Thread-6] com.wework.assignment.WebSearchExecutor.websearch: acquirethisname.com has No such word!
+22 Jul 2018 15:08:51,270 INFO [Thread-1] com.wework.assignment.WebSearchExecutor.websearch: bloglovin.com has No such word!
+22 Jul 2018 15:08:51,449 INFO [Thread-7] com.wework.assignment.WebSearchExecutor.websearch: examiner.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:52,062 INFO [Thread-18] com.wework.assignment.WebSearchExecutor.websearch: china.com.cn has No such word!
+22 Jul 2018 15:08:52,237 INFO [Thread-9] com.wework.assignment.WebSearchExecutor.websearch: nsw.gov.au has No such word!
+22 Jul 2018 15:08:53,647 INFO [Thread-16] com.wework.assignment.WebSearchExecutor.websearch: hao123.com has No such word!
+22 Jul 2018 15:08:56,274 INFO [Thread-4] com.wework.assignment.WebSearchExecutor.websearch: dedecms.com cannot be processed properly - Underlying input stream returned zero bytes
+22 Jul 2018 15:08:56,285 INFO [Thread-3] com.wework.assignment.WebSearchExecutor.websearch: 163.com cannot be processed properly - Read timeout
+22 Jul 2018 15:08:56,487 INFO [Thread-13] com.wework.assignment.WebSearchExecutor.websearch: furl.net cannot be processed properly - furl.net
+22 Jul 2018 15:08:57,305 INFO [Thread-10] com.wework.assignment.WebSearchExecutor.websearch: sitemeter.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:08:59,991 INFO [Thread-17] com.wework.assignment.WebSearchExecutor.websearch: bloglines.com cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:09:01,073 INFO [Thread-12] com.wework.assignment.WebSearchExecutor.websearch: accuweather.com cannot be processed properly - Read timed out
+22 Jul 2018 15:09:04,098 INFO [Thread-5] com.wework.assignment.WebSearchExecutor.websearch: de.vu cannot be processed properly - Connection timed out: connect
+22 Jul 2018 15:09:04,099 INFO [main] com.wework.assignment.WebSearchManager.execute: final size of URLs: 0
+22 Jul 2018 15:09:04,100 INFO [main] org.springframework.context.support.ClassPathXmlApplicationContext.doClose: Closing org.springframework.context.support.ClassPathXmlApplicationContext@182decdb: startup date [Sun Jul 22 15:08:20 EDT 2018]; root of context hierarchy
