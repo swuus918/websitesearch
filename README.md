@@ -1,6 +1,8 @@
 # websitesearch
-Simple Website Searcher
+Simple Website Searcher. This would go to https://s3.amazonaws.com/fieldlens-public/urls.txt and look at all the rows after the header and pick up the second column as the URL to do web search using the search term provided as input. You can also supply how many concurrent HTTP request as the second input.
 
+## Prerequisite
+Latest Java Runtime Environment installed
 
 ## how to run it
 ```
